@@ -1,0 +1,138 @@
+absl-py==0.11.0
+appdirs==1.4.3
+argon2-cffi @ file:///C:/ci/argon2-cffi_1596828585465/work
+attrs @ file:///tmp/build/80754af9/attrs_1600298409949/work
+backcall==0.2.0
+black==20.8b1
+bleach @ file:///tmp/build/80754af9/bleach_1600273001523/work
+cachetools==4.1.1
+certifi==2020.12.5
+cffi @ file:///C:/ci/cffi_1598352710791/work
+cfgv==3.2.0
+chardet==3.0.4
+click==7.1.2
+cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1593623337153/work
+colorama==0.4.3
+cycler==0.10.0
+cytoolz==0.10.1
+dask @ file:///home/conda/feedstock_root/build_artifacts/dask-core_1596244567871/work
+decorator==4.4.2
+defusedxml==0.6.0
+distlib==0.3.1
+dominate==2.5.2
+efficientnet-pytorch==0.7.0
+entrypoints==0.3
+et-xmlfile==1.0.1
+filelock==3.0.12
+flake8==3.8.4
+future==0.18.2
+google-auth==1.23.0
+google-auth-oauthlib==0.4.2
+grpcio==1.33.2
+identify==1.5.10
+idna==2.10
+imagecodecs-lite @ file:///D:/bld/imagecodecs-lite_1591047465944/work
+imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1594044661732/work
+importlib-metadata @ file:///C:/ci/importlib-metadata_1593446511143/work
+ipykernel @ file:///C:/ci/ipykernel_1596190155316/work/dist/ipykernel-5.3.4-py3-none-any.whl
+ipython @ file:///C:/ci/ipython_1598865816163/work
+ipython-genutils==0.2.0
+ipywidgets==7.5.1
+jdcal==1.4.1
+jedi @ file:///C:/ci/jedi_1598353661586/work
+Jinja2==2.11.2
+joblib==0.17.0
+jsonschema==3.2.0
+jupyter==1.0.0
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1594826976318/work
+jupyter-console @ file:///tmp/build/80754af9/jupyter_console_1598884538475/work
+jupyter-core==4.6.3
+kiwisolver==1.2.0
+llvmlite==0.34.0
+lpips==0.1.1
+Markdown==3.3.3
+MarkupSafe==1.1.1
+matplotlib @ file:///C:/ci/matplotlib-base_1592837548929/work
+mccabe==0.6.1
+mistune==0.8.4
+mkl-fft==1.1.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+mypy==0.790
+mypy-extensions==0.4.3
+nbconvert==5.6.1
+nbformat==5.0.7
+networkx==2.4
+nodeenv==1.5.0
+notebook @ file:///C:/ci/notebook_1596840175976/work
+numba==0.51.2
+numpy @ file:///C:/ci/numpy_and_numpy_base_1596215850360/work
+oauthlib==3.1.0
+olefile==0.46
+openpyxl @ file:///tmp/build/80754af9/openpyxl_1598113097404/work
+packaging==20.4
+pandas @ file:///C:/ci/pandas_1598371563714/work
+pandocfilters==1.4.2
+parso==0.7.1
+pathspec==0.8.1
+pickleshare==0.7.5
+Pillow @ file:///C:/ci/pillow_1594298230227/work
+pre-commit==2.9.3
+prometheus-client==0.8.0
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1598885458782/work
+protobuf==3.14.0
+psutil==5.7.3
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycodestyle==2.6.0
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pyflakes==2.2.0
+Pygments @ file:///tmp/build/80754af9/pygments_1600141365765/work
+pyparsing==2.4.7
+pyrsistent @ file:///C:/ci/pyrsistent_1600141795814/work
+python-dateutil==2.8.1
+pytorch-metric-learning==0.9.94
+pytz==2020.1
+PyWavelets==1.1.1
+pywin32==227
+pywinpty==0.5.7
+PyYAML==5.3.1
+pyzmq==19.0.1
+qtconsole @ file:///tmp/build/80754af9/qtconsole_1598374667791/work
+QtPy==1.9.0
+quimb==1.3.0
+regex==2020.11.13
+requests==2.25.0
+requests-oauthlib==1.3.0
+rsa==4.6
+scikit-image==0.17.2
+scikit-learn==0.23.2
+scipy==1.5.2
+Send2Trash==1.5.0
+sip==4.19.13
+six==1.14.0
+tensorboard==2.4.0
+tensorboard-plugin-wit==1.7.0
+tensorboardX @ file:///home/conda/feedstock_root/build_artifacts/tensorboardx_1594067496847/work
+terminado==0.8.3
+testpath==0.4.4
+threadpoolctl==2.1.0
+tifffile==2019.7.26.2
+toml==0.10.2
+toolz==0.10.0
+torch==1.6.0
+torchvision==0.7.0
+tornado==6.0.4
+tqdm @ file:///tmp/build/80754af9/tqdm_1596810128862/work
+traitlets==4.3.3
+typed-ast==1.4.1
+typing-extensions==3.7.4.3
+urllib3==1.26.2
+virtualenv==20.2.2
+wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+webencodings==0.5.1
+Werkzeug==1.0.1
+widgetsnbextension==3.5.1
+wincertstore==0.2
+XlsxWriter @ file:///tmp/build/80754af9/xlsxwriter_1602001750554/work
+zipp==3.1.0
