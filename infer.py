@@ -42,15 +42,15 @@ parser.add_argument(
     "--p1",
     "--img1_path",
     type=str,
-    default="ex_imgs/a1.jpg",
-    help="Enter path to Image 1. Default: ex_imgs/a1.jpg",
+    default="a.jpg",
+    help="Enter path to Image 1. Default: a1.jpg",
 )
 parser.add_argument(
     "--p2",
     "--img2_path",
     type=str,
-    default="ex_imgs/b1.jpg",
-    help="Enter path to Image 2. Default: ex_imgs/b1.jpg",
+    default="a.jpg",
+    help="Enter path to Image 2. Default: b1.jpg",
 )
 parser.add_argument(
     "--emb",

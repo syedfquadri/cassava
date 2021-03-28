@@ -13,7 +13,7 @@ from PIL import Image
 
 class datasetGen(Dataset):
     def __init__(self):
-        f = open("JSONFiles/imgs_NamesLbls.json")  # img1 img2 img1_lbl img2_lbl
+        f = open("data/imgs_NamesLbls.json")  # img1 img2 img1_lbl img2_lbl
         train = json.load(f)
         self.img_path = train["img"]
         self.imgLbl_path = train["label"]
@@ -40,7 +40,7 @@ class datasetGen(Dataset):
 
 # class siameseDataset(Dataset):
 #     def __init__(self):
-#         f = open("JSONFiles/imgs_pairsGen.json") #img1 img2 img1_lbl img2_lbl
+#         f = open("data/imgs_pairsGen.json") #img1 img2 img1_lbl img2_lbl
 #         train = json.load(f)
 #         self.img1_path = train['img1']
 #         self.img2_path = train['img2']
@@ -77,7 +77,7 @@ class datasetGen(Dataset):
 
 class siameseDataset(Dataset):
     def __init__(self):
-        f = open("JSONFiles/imgs_NamesLbls.json")  # img1 img2 img1_lbl img2_lbl
+        f = open("data/imgs_NamesLbls.json")  # img1 img2 img1_lbl img2_lbl
         train = json.load(f)
         self.img_path = train["img"]
         self.imgLbl_path = train["label"]
@@ -119,7 +119,7 @@ class siameseDataset(Dataset):
 
 class tripletDataset(Dataset):
     def __init__(self):
-        f = open("JSONFiles/imgs_NamesLbls.json")  # img1 img2 img1_lbl img2_lbl
+        f = open("data/imgs_NamesLbls.json")  # img1 img2 img1_lbl img2_lbl
         train = json.load(f)
         self.img_path = train["img"]
         self.imgLbl_path = train["label"]

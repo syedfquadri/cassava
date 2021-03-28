@@ -56,10 +56,10 @@ logging.basicConfig(
 
 params = OrderedDict(
     batch_size=[10],
-    model=["tripletNet", "siameseNet"],  # Best: To be determined
+    model=["tripletNet",],  # Best: To be determined "siameseNet"
     network=[
-        "alex",
-    ],  # Best: effB0 "effB0",, "effB3", "resnet", "sqe"
+        "sqe",
+    ],  # Best: effB0 "effB0",, "effB3", "resnet", "alex"
     margin=[1.0],  # Best: 1.
     opt=["adam"],  # Best: Adam
     lr=[0.001],  # Best: , 0.0001
@@ -184,13 +184,13 @@ def main():
         if run.model == "siameseNet":
             model = SiameseNet(embedding_net)
             Dset = siameseDataset()
-            train_set, test_set = torch.utils.data.random_split(Dset, [100, 63])
+            train_set, test_set = torch.utils.data.random_split(Dset, [17000, 4397])
             trainLoader = DataLoader(train_set, batch_size=run.batch_size, shuffle=True)
             testLoader = DataLoader(test_set, batch_size=run.batch_size, shuffle=True)
         elif run.model == "tripletNet":
             model = TripletNet(embedding_net)
             Dset = tripletDataset()
-            train_set, test_set = torch.utils.data.random_split(Dset, [100, 63])
+            train_set, test_set = torch.utils.data.random_split(Dset, [17000, 4397])
             trainLoader = DataLoader(train_set, batch_size=run.batch_size, shuffle=True)
             testLoader = DataLoader(test_set, batch_size=run.batch_size, shuffle=True)
         model = model.to(device)
@@ -318,7 +318,7 @@ def main():
             test_loss = test_epoch(testLoader)
             m.track_trainLoss(train_loss)
             m.track_testLoss(test_loss)
-            # m.save_score()
+            m.save_score()
             m.end_epoch()
         checkpoint = {"state_dict": model.embedding_net.state_dict()}
         m.save_model(checkpoint)
@@ -425,6 +425,6 @@ def load_models(modelname):
 
 
 if __name__ == "__main__":
-    # main()
-    embeddings_Gen()
+    main()
+    # embeddings_Gen()
     pass

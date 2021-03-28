@@ -1,2 +1,7 @@
 data
 ./data
+./results.log
+results.log
+imgNameList.json
+runs
+./runs

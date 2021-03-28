@@ -10,6 +10,7 @@ def namelist():
     fieldNames = ('img','label')
     reader = csv.DictReader(in_path,fieldNames)
     for row in reader:
+        row['img'] = os.path.join('data/train_images/',row['img'])
         out['img'].append(row['img'])
         out['label'].append(row['label'])
     json.dump(out,open(out_path,'w'),indent=4,ensure_ascii=False)

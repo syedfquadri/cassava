@@ -42,11 +42,11 @@ from train import RunBuilder, RunManager
 
 params = OrderedDict(
     batch_size=[10],
-    model=["tripletNet", "siameseNet"],  # Best: To be determined
-    network=["alex","effB3", "resnet", "sqe"],  # Best: effB0 "effB0",, 
+    model=["tripletNet",],  # Best: To be determined "siameseNet"
+    network=[ "sqe"],  # Best: effB0 "effB0",, "alex","effB3", "resnet",
     margin=[1.0],  # Best: 1.
     opt=["adam"],  # Best: Adam
-    lr=[0.001, 0.0001],  # Best: , 0.0001
+    lr=[0.001],  # Best: , 0.0001, 0.0001
     # lpips_like = [True, False], ####### NEXT STEP ######
 )
 
