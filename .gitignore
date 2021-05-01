@@ -5,3 +5,7 @@ results.log
 imgNameList.json
 runs
 ./runs
+.vscode
+./.vscode
+__pycache__
+./__pycache__
